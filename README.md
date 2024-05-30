@@ -1,1 +1,1 @@
-# pokemon-blog
+Pokemon generator using React.JS and PokeAPI

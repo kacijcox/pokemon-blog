@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'pokemonclassic';
+	src: url('/workspaces/pokemon-blog/src/fonts/pokemonclassic.ttf');
+}
+
+@font-face {
+	font-family: 'pokemonclassic2';
+	src: url('/workspaces/pokemon-blog/src/fonts/Ketchum.otf');
+}
+
+div.characters {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2.pokemon-name {
+  font-family: 'pokemonclassic2';
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color:#3D7DCA;
+  text-shadow: 2px 2px 0 #eb3629, -2px -2px 0 #000;
+  letter-spacing: 5px; 
+  padding-left: 25px;
+}
+
+img.pokemon-image {
+  width: 220px;
+  height: 220px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.pokemon-type {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'pokemonclassic'
+}
+
+.pokemon-ability {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'pokemonclassic'
+}
+
+.pokemon-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'pokemonclassic'
+}
+
+button.generate-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3D7DCA;
+  color: #fff;
+  border: solid black 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:35px;
+  font-family:'pokemonclassic'
+}
+
+button.generate-button:hover {
+  background-color:  #FFDE00;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
